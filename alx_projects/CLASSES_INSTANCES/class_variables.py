@@ -51,4 +51,13 @@ print(emp_2.__dict__)
 print(Employee.raise_amount)### Class attribute accessed through the class
 print(emp_1.raise_amount) ### Instance attribute overridden for emp_1
 print(emp_2.raise_amount) ### Default class attribute value for emp_2
+##EMPLOYEE1
+print(emp_1.pay)
+emp_1.apply_raise()
+print(emp_1.pay)
+##EMPLOYEE2
+print(emp_2.pay)
+emp_2.apply_raise()
+print(emp_2.pay)
+
 
